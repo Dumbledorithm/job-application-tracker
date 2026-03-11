@@ -1,0 +1,45 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# build folders
+dist/
+build/
+.next/
+out/
+
+# coverage
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor files
+.vscode/
+.idea/
+
+# misc
+*.tgz
+*.swp
+
+# uploads (if you store resume uploads locally)
+uploads/
+
+# temporary files
+tmp/
+temp/
